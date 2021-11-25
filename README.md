@@ -2,7 +2,6 @@
 
 ## Site URL:
 
-Still under construction:
 **https://tourist-spots-india.netlify.app**
 
 ## Credits
@@ -22,6 +21,8 @@ It's a site showing the top 15 tourist spots recommended by the internet. It is 
 And I know I could have used React but it didn't feel right to use React in a practical in which only HTML is in syllabus.
 
 Mid-Development Review: I should have just used React. I am regretting it now.
+
+End-Development Review: I regret everything now. Vite wasn't meant for this. And it would have been way better to make this with React because there is a lot of repeated code.
 
 ## School Related Details
 
