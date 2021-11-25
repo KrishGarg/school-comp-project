@@ -2,12 +2,113 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <title>15 Top-Rated Tourist Spots in India</title>
   </head>
-  <body>
-    <div class="text-center">Hi</div>
-    <script type="module" src="/main.js"></script>
+  <body class="bg-gray-800 text-white flex flex-col min-h-screen gap-6">
+    <h1
+      class="
+        text-2xl
+        md:text-4xl
+        font-bold
+        text-center
+        font-serif
+        mt-4
+        underline
+      "
+    >
+      Top 15 Tourist Spots in India
+    </h1>
+
+    <div class="px-2 md:px-16 lg:px-20 text-lg md:text-2xl">
+      <div class="text-center mt-2 space-y-4">
+        <p>
+          India is a vibrant land of startling contrasts where both the
+          traditional and modern worlds meet. The world's seventh largest nation
+          by area and the second largest in terms of population, India boasts a
+          rich heritage that's the result of centuries of different cultures and
+          religions leaving their mark. Things to do for travelers include the
+          opportunity to experience an array of sacred sites and spiritual
+          encounters, while nature lovers will enjoy its sun-washed beaches,
+          lush national parks, and exciting wildlife sanctuaries.
+        </p>
+        <p>
+          From the magnificent Taj Mahal in Agra to the holy sites of Harmandir
+          Sahib (formerly the Golden Temple) in Amritsar and the Mecca Masjid
+          mosque in Hyderabad, visitors to this exotic country will discover a
+          trove of spiritual, cultural, and historical treasures.
+        </p>
+        <p>
+          To help you make the most of your time in this amazing country, refer
+          often to our list of the top things to do in India.
+        </p>
+      </div>
+
+      <ol
+        class="
+          list-disc
+          px-4
+          md:px-16
+          lg:px-20
+          mt-4
+          md:mt-8
+          space-y-2
+          underline
+        "
+      >
+        <li><a href="#">The Taj Mahal, Agra</a></li>
+        <li><a href="#">The Holy City of Varanasi</a></li>
+        <li><a href="#">Harmandir Sahib: The Golden Temple of Amritsar</a></li>
+        <li><a href="#">The Golden City: Jaisalmer</a></li>
+        <li><a href="#">The Red Fort, New Delhi</a></li>
+        <li><a href="#">Mumbai: The Gateway of India</a></li>
+        <li><a href="#">Mecca Masjid, Hyderabad</a></li>
+        <li><a href="#">Amer Fort, Jaipur</a></li>
+        <li><a href="#">The Beaches of Goa</a></li>
+        <li>
+          <a href="#">Periyar National Park and Wildlife Sanctuary, Madurai</a>
+        </li>
+        <li><a href="#">Agra Fort</a></li>
+        <li><a href="#">The Ellora Caves, Aurangabad</a></li>
+        <li><a href="#">Mehrangarh Fort, Jodhpur</a></li>
+        <li><a href="#">Mysore Palace</a></li>
+        <li><a href="#">Mahabodhi Temple, Bodhgaya</a></li>
+      </ol>
+    </div>
+
+    <footer
+      class="
+        w-full
+        p-4
+        bg-gray-900
+        mt-auto
+        flex
+        items-center
+        justify-center
+        flex-col
+      "
+    >
+      <div>
+        Credits:
+        <a
+          class="underline"
+          href="https://www.planetware.com/tourist-attractions/india-ind.htm"
+          >PlanetWare</a
+        >
+      </div>
+      <div>Please don't sue me it's just a school project :')</div>
+    </footer>
+
+    <!-- Back to Top button -->
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+      addBackToTop({
+        diameter: 56,
+        backgroundColor: "rgb(55, 65, 81)",
+        textColor: "#fff",
+      });
+    </script>
   </body>
 </html>

@@ -2,7 +2,8 @@
 
 ## Site URL:
 
-**Soon™**
+Still under construction:
+**https://tourist-spots-india.netlify.app**
 
 ## Credits
 
@@ -17,6 +18,8 @@ It's a site showing the top 15 tourist spots recommended by the internet. It is 
 - HTML.
 - TailwindCSS for faster css development.
 - Vite for better development experience.
+
+And I know I could have used React but it didn't feel right to use React in a practical in which only HTML is in syllabus.
 
 ## School Related Details
 
