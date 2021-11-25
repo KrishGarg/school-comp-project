@@ -21,8 +21,11 @@ It's a site showing the top 15 tourist spots recommended by the internet. It is 
 
 And I know I could have used React but it didn't feel right to use React in a practical in which only HTML is in syllabus.
 
+Mid-Development Review: I should have just used React. I am regretting it now.
+
 ## School Related Details
 
 - Name: **[Krish Garg](https://www.krishgarg.ga)**
 - Class: **10th E**
+- CBSE Roll Number: **11163474**
 - School: Ryan International School <br />(No address due to security reasons)
